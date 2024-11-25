@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/teja_typing_test_app_/static/css/main.4ef97d24.css",
+    "main.js": "/teja_typing_test_app_/static/js/main.d5557de5.js",
+    "static/js/453.4209a0e8.chunk.js": "/teja_typing_test_app_/static/js/453.4209a0e8.chunk.js",
+    "index.html": "/teja_typing_test_app_/index.html",
+    "main.4ef97d24.css.map": "/teja_typing_test_app_/static/css/main.4ef97d24.css.map",
+    "main.d5557de5.js.map": "/teja_typing_test_app_/static/js/main.d5557de5.js.map",
+    "453.4209a0e8.chunk.js.map": "/teja_typing_test_app_/static/js/453.4209a0e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ef97d24.css",
+    "static/js/main.d5557de5.js"
+  ]
+}
