@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+.keyboard{
+    border: 2px solid skyblue;
+    margin:auto;
+    margin-top: 20px;
+    height: 300px;
+    width: 70%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    filter: blur(4px);
+}
+.firstrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.tab{
+    width: 70px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.secondrow{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdrow{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.enter{
+    width: 90px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+.Shift{
+    width: 120px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+.spacebar{
+    width: 260px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+.alt,.ctrl,.menu,.win{
+    width: 70px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+.fifthrow{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.fourthrow{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.capslock{
+    width: 90px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    border: 1px solid lightskyblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+#delete{
+    width: 90px;
+    height: 45px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+@media  screen and (max-width:560px){
+
+    .keyboard{
+        width: 99%;
+        font-size: 11px;
+    }
+    /* .button{
+        width: 30px;
+        height: 33px;
+    }
+    .delete,.enter{
+        width: 60px;
+        height: 33px;
+
+    } */
+}
+
+
+
+@media screen and (max-width:700px){
+    .keyboard{
+        width: 99%;
+        font-size: 11px;
+        height: 230px;
+    }
+    .button{
+        width: 30px;
+        height: 30px;
+    }
+
+    .firstrow{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .tab{
+        width: 50px;
+        height: 30px;
+    }
+   
+    
+    .enter{
+        width: 50px;
+        height: 30px;
+        border: 1px solid skyblue;
+        border-radius: 5px;
+    }
+    
+    .Shift{
+        width: 70px;
+        height: 30px;
+        border: 1px solid skyblue;
+        border-radius: 5px;
+    }
+    
+    .spacebar{
+        width: 180px;
+        height: 30px;
+        border: 1px solid skyblue;
+        border-radius: 5px;
+    }
+    
+    .alt,.ctrl,.menu,.win{
+        width: 35px;
+        height: 30px;
+    }
+    
+  
+    
+    
+    .capslock{
+        width: 50px;
+        height: 30px;
+        font-size: 10px;
+    }
+  
+    #delete{
+        width: 50px;
+        height: 30px;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .keyboard{
+        width: 95%;
+        font-size: 11px;
+    }
+    .spacebar{
+        width: 240px;
+       
+        border: 1px solid skyblue;
+        border-radius: 5px;
+    }
+}
